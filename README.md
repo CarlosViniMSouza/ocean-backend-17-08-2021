@@ -1,73 +1,72 @@
-# Começando um projeto NodeJS pelo GitPod.io
+# Get Started a new project on Gitpod.io
 
-1. Entre no site GitPod.io e faça o login (pode ser com GitLab, GitHub ou Bitbucket).
+1. Access the Gitpod.io site and effect your login (ways: GitLab, GitHub ou Bitbucket).
    https://gitpod.io/login/
-   (eu fiz com GitHub)
+   (I'm doing used GitHub)
 
-2. Após o login, abra a seguinte URL:
+2. Concluded the login, access this URL:
    https://www.gitpod.io/#https://github.com/paulosalvatore/nodejs-clean-template
 
-3. Para rodar, vá no terminal e digite o seguinte comando:
+3. For start, go to the terminal and type the following command:
 
    - ```bash
      node index.js
      ```
 
-   - Teremos a seguinte saída:
+   - The output is:
 
-     - ```
+      - ```
        gitpod /workspace/nodejs-clean-template $ node index.js
        Hello, world!
        ```
 
-# Começando um projeto NodeJS pelo VSCode instalado na máquina
+#  Get Started a new NodeJS project on VSCode installed at yourself machine.
 
-1. Crie uma pasta no seu PC, de preferência em uma localização de pastas sem acento e sem espaço, exemplo:
+1. Created a folder in your PC, preferably, example:
 
 ```bash
-C:\GitHub\SamsungOcean\ocean-backend-17-08-2021
+C:\GitHub\CarlosViniMSouza\ocean-backend-17-08-2021
 ```
 
-2. Clique em `Arquivo > Abrir o Windows Power Shell como administrador` e digite o seguinte comando:
+2. Click in `Files > Open Windows PowerShell how to administrator` and white the follow command:
 
    - ```bash
      code .
      ```
 
-   - **Opcionalmente**, se você marcou a opção para adicionar o VSCode no menu de path, você pode simplesmente clicar com o botão direto na pasta e clicar em `Abrir com Code` e pular esse passo de abril o terminal/digitar o comando `code.`
+   - **Optionally**, if you checked the option to add the VSCode in the path menu, you can just click
+   - with the right button on the folder and click on `Abrir com Code` and skip this step of April the 
+   - terminal/enter command `code.`
 
-4. O VSCode deverá abrir. Clique em `Terminal > New terminal`.
+3. The VSCode should open. Click in `Terminal > New terminal`.
 
-5. No terminal, digite o seguinte comando:
+4. On terminal, type the follow command:
+
    - ```bash
      npm init -y
      ```
-   
-   - Esse comando irá gerar o arquivo `package.json` com um conteúdo inicial.
-   
-6. Clique no botão `New file` e digite `index.js`
 
-   - ![Criando arquivo](images_readme/criando-arquivo.png)
+   - This command should create the file `package.json` with an initial content.
 
-7. Digite o seguinte código:
+6. Click on bottom `New file` and enter `index.js`
+
+   - ![Creating file](images_readme/criando-arquivo.png)
+
+7. type the follow code:
 
    - ```javascript
      console.log("Hello, world!")
      ```
 
-8. Salve o arquivo, clique no terminal, digite o seguinte comando e execute:
+8. Save the file, click on the terminal, type the following command and run:
 
    - ```bash
      node index.js
      ```
 
-   - Teremos a seguinte saída:
+   - We're having the follow output:
 
-     - ```
+      - ```
        C:\GitHub\SamsungOcean\ocean-backend-17-08-2021>node index.js
        Hello, world!
        ```
-
-```
-README alt
-```
