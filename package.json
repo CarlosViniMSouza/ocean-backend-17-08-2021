@@ -1,7 +1,7 @@
 {
   "name": "ocean-backend-17-08-2021",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. Access the Gitpod.io site and effect your login (ways: GitLab, GitHub ou Bitbucket).\r    https://gitpod.io/login/\r    (I'm doing used GitHub)",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index"
@@ -14,5 +14,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosViniMSouza/ocean-backend-17-08-2021.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CarlosViniMSouza/ocean-backend-17-08-2021/issues"
+  },
+  "homepage": "https://github.com/CarlosViniMSouza/ocean-backend-17-08-2021#readme"
 }
